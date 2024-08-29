@@ -513,6 +513,12 @@ header {
 .navbar-toggler {
   padding: 0;
 }
+.navbar ul li {
+  margin: 0 8px;
+}
+.navbar ul li a{
+ color: #111;
+}
 .logo {
   display: flex;
   justify-content: start;
@@ -584,13 +590,13 @@ header {
     padding: 5px 12px;
     margin-top: 20px;
   }
-.navbar {
-  flex-direction: column;
-}
+
   .navbar-brand img {
     width: 60px;
   }
-
+  .navbar ul li {
+    margin: 10px;
+  }
   nav ul li a {
     color: #FFD700;
   }
@@ -885,4 +891,9 @@ nav ul li:hover a {
   color: #FFD700;
   background-color: #111;
   border-color: #FFD700;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
 }

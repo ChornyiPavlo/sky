@@ -13,24 +13,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">
+<header class="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/logo.jpg" alt="Логотип">
-                <h1>Pinup Fight in the Sky</h1>
             </a>
-            <ul class="menu">
-                <li><a href="index.html">Ana sayfa</a></li>
-                <li><a href="policy.html">Gizlilik Politikası</a></li>
-                <li><a href="terms.html">Şartları ve Koşulları</a></li>
-                <li><a href="disclaimer.html">Şorumluluk reddi beyanı</a></li>
-            </ul>
-            <div class="cta">
-                <a href="#" class="button">Oynamak</a>
+            <h1>Pinup Fight in the Sky</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ml-auto">
+                    <li><a href="index.html">Ana sayfa</a></li>
+                    <li><a href="policy.html">Gizlilik Politikası</a></li>
+                    <li><a href="terms.html">Şartları ve Koşulları</a></li>
+                    <li><a href="disclaimer.html">Şorumluluk reddi beyanı</a></li>
+                    <li  class="cta"><a href="#" class="button">Oynamak</a></li>
+                </ul>
             </div>
         </nav>
-    </header>
-    
+    </div>
+</header>
+
     <main>
         <section class="hero">
             <div class="hero-content">
@@ -139,13 +148,17 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Contact us: info@pinup.com</p>
+            <p>Azerbaijan,Baku, Nasimi district, Alimardan-bek Topchubashev 11 | (+99450) 616-26-08</p>
+            <p>Contact us: info@pinupfightinthesky.com</p>
         </div>
     </footer>
 
 
 
 </body>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
